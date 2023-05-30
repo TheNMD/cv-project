@@ -1,0 +1,14 @@
+1. Batch size = 256
+2. Epoch = 50
+
+3. Kernel uses Gaussian Weight Initialization 
+4. Downsample and upsample using strided convolutions
+5. Use Leaky RELU
+6. Batch norm after Leaky RELU
+7. Adam SGD
+8. Gaussian latent space
+9. Separate batches of real and fake images
+
+10. Tanh for activation layer for generator
+11. Scale image to -1 to 1
+12. Label smoothing for positive and negative classes in discriminator
